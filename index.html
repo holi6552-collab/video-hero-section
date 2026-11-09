@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santa Cruz Beach Boardwalk | Video Hero</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <!-- Full-screen hero section -->
+    <section class="hero" aria-labelledby="hero-title">
+      <!-- Muted looping background video and fallback image -->
+      <video class="hero-video" autoplay muted loop playsinline poster="poster.jpg" aria-hidden="true">
+        <source src="background-video.mp4" type="video/mp4">
+      </video>
+      <!-- Dark layer to make the text easier to read -->
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content">
+        <h1 id="hero-title">Welcome to Santa Cruz Beach Boardwalk</h1>
+        <p>Where ocean views, exciting rides, and unforgettable memories come together.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
